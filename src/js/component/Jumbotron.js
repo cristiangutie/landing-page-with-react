@@ -2,7 +2,7 @@ import React from "react";
 
 export function Jumbotron() {
 	return (
-		<div className="jumbotron jumbotron-fluid">
+		<div className="jumbotron jumbotron-fluid m-2">
 			<div className="container">
 				<h1 className="display-4">A warm welcome!</h1>
 				<p className="lead">
@@ -15,10 +15,10 @@ export function Jumbotron() {
 				</p>
 				<p className="lead">
 					<a
-						className="btn btn-primary btn-lg"
+						className="btn btn-primary btn-lg font-weight-bold"
 						href="#"
 						role="button">
-						Learn more
+						Call to action!
 					</a>
 				</p>
 			</div>

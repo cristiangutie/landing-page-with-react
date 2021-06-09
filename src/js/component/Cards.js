@@ -6,54 +6,28 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 export function Card() {
 	return (
-		<div className="card-group">
-			<div className="card">
-				<img src="..." className="card-img-top" alt="..." />
-				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						This is a wider card with supporting text below as a
-						natural lead-in to additional content. This content is a
-						little bit longer.
-					</p>
-					<p className="card-text">
-						<small className="text-muted">
-							Last updated 3 mins ago
-						</small>
-					</p>
-				</div>
+		<div className="card m-2">
+			<img
+				src="https://via.placeholder.com/500x325"
+				className="card-img-top"
+				alt="..."
+			/>
+			<div className="card-body">
+				<h3 className="card-title text-center font-weight-bold">
+					Card title
+				</h3>
+				<p className="card-text text-center">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Integer eu enim felis.
+				</p>
 			</div>
-			<div className="card">
-				<img src="..." className="card-img-top" alt="..." />
-				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						This card has supporting text below as a natural lead-in
-						to additional content.
-					</p>
-					<p className="card-text">
-						<small className="text-muted">
-							Last updated 3 mins ago
-						</small>
-					</p>
-				</div>
-			</div>
-			<div className="card">
-				<img src="..." className="card-img-top" alt="..." />
-				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						This is a wider card with supporting text below as a
-						natural lead-in to additional content. This card has
-						even longer content than the first to show that equal
-						height action.
-					</p>
-					<p className="card-text">
-						<small className="text-muted">
-							Last updated 3 mins ago
-						</small>
-					</p>
-				</div>
+			<div className="card-footer bg-white d-flex justify-content-center">
+				<a
+					className="btn btn-primary btn-lg font-weight-bold"
+					href="#"
+					role="button">
+					Find Out More!
+				</a>
 			</div>
 		</div>
 	);
