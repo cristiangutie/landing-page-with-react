@@ -10,7 +10,7 @@ export function Navbar() {
 	const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a className="navbar-brand text-info font-weight-bolder" href="/">
 				<img
 					src={rigoImage}
