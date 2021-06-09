@@ -12,6 +12,7 @@ import "../styles/index.scss";
 import { Navbar } from "./component/Navbar.js";
 import { Jumbotron } from "./component/Jumbotron";
 import { Card } from "./component/Cards.js";
+import { Footer } from "./component/Footer.js";
 
 //render your react application
 ReactDOM.render(
@@ -26,6 +27,7 @@ ReactDOM.render(
 				<Card />
 			</div>
 		</div>
+		<Footer />
 	</React.Fragment>,
 	document.querySelector("#app")
 );
