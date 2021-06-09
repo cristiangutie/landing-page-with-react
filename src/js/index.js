@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-//include bootstrap npm library into the bundle
+//include bootstrap and jquery npm library into the bundle
 import "bootstrap";
 
 //include your index.scss file into the bundle
@@ -17,8 +17,15 @@ import { Card } from "./component/Cards.js";
 ReactDOM.render(
 	<React.Fragment>
 		<Navbar />
-		<Jumbotron />
-		<Card />
+		<div className="container">
+			<Jumbotron />
+			<div className="d-flex flex-sm-row flex-column">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
+		</div>
 	</React.Fragment>,
 	document.querySelector("#app")
 );
